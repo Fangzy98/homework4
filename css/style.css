@@ -6,14 +6,15 @@
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
   
   
-.nav_item a{
+/* .nav_item a{
     padding: 0;
     display: flex;
     justify-content: center;
-  }
+  } */
 
 #logo {
     width: 100%;
@@ -35,6 +36,8 @@
 .pricing {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
 }
 
 .card {
@@ -44,6 +47,7 @@
 .gallery {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .gallery img {
