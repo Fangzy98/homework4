@@ -57,7 +57,7 @@ header {
     width: 100%;
 }
 
-@media all and (min-width: 800px) {
+@media all and (min-width: 700px) {
     #logo {
         width: 400px;
         height: auto;
